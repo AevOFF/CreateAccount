@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+<div class="container">
+    <form id="Form1">
+        <h3>CREATE YOUR ACCOUNT</h3>
+        <input type="text" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <input type="password" placeholder="Confirm Password" required>
+        <div class="btn-box">
+            <button type="button" id="Next1">Next</button>
+        </div>
+    </form>
+
+
+    <form id="Form2">
+        <h3>SOCIAL LINKS</h3>
+        <input type="text" placeholder="Twitter">
+        <input type="text" placeholder="Facebook">
+        <input type="text" placeholder="Google Plus">
+
+        <div class="btn-box">
+            <button type="button" id="Previous1">Previous</button>
+            <button type="button" id="Next2">Next</button>
+        </div>
+    </form>
+
+    <form id="Form3">
+        <h3>PERSONAL DETAIL</h3>
+        <input type="text" placeholder="First Name"required>
+        <input type="text" placeholder="Adress"required>
+        <input type="number" placeholder="Phone"required>
+        <input type="text" placeholder="Adress"required>
+
+        <div class="btn-box">
+            <button type="button" id="Previous2">Previous</button>
+            <button type="Submit" >Submit</button>
+        </div>
+    </form>
+    <div class="step-row">
+        <div id="progress"></div>
+        <div class="step-col"><small>Account Setup</small></div>
+        <div class="step-col"><small>Social Profiles</small></div>
+        <div class="step-col"><small>Personal Details</small></div>
+    </div>
+</div>
+
+<script src="script/script.js"></script>
+</body>
+</html>
